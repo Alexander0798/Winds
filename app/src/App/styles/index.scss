@@ -5,3 +5,31 @@ body {
   background-color: $bg_primary;
   color: $text_color_primary;
 }
+
+.naw-bar {
+  width: 100vw;
+  height: $hg_nawbar;
+
+}
+
+.naw-bar,
+.side-bar {
+  background: $bg_secondary;
+}
+
+.side-bar {
+  width: $width_sidebar;
+  height: calc(100vh - $hg_nawbar);
+}
+
+.route {
+  width: calc(100% - $width_sidebar);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content-page {
+  display: flex;
+}

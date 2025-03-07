@@ -7,9 +7,11 @@ function App() {
 
   return (
     <>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <div className="naw-bar">fasd</div>
+      <div className="content-page">
+        <div className="side-bar">asdf</div>
+        <div className="route">Click on the Vite and React logos to learn more</div>
+      </div>
     </>
   )
 }
